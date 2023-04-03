@@ -19,7 +19,6 @@ public class SqlConnection {
         if (Objects.isNull(dataSource)) {
             dataSource = getDataSource();
         }
-
         return dataSource.getConnection();
     }
 
