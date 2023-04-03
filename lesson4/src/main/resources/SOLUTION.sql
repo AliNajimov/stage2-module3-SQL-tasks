@@ -1,4 +1,4 @@
-select * from student
-selecT * from student limit 50;
-select name from student;
-select distinct amount from payment;
+select * from STUDENT;
+select * from STUDENT limit 50;
+select name from STUDENT;
+select distinct (amount) from PAYMENT;
